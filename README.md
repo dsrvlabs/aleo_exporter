@@ -11,9 +11,6 @@ aleo_exporter exports basic monitoring data from a Aleo node.
 You typically only need to set the RPC URL, pointing to one of your own nodes:
 
     ./aleo_exporter -rpcURI=http://yournode:3033
-    
-If you want verbose logs, specify `-v=<num>`. Higher verbosity means more debug output. For most users, the default
-verbosity level is fine. If you want detailed log output for missed blocks, run with `-v=1`.
 
 ```
 Usage of ./aleo_exporter:
