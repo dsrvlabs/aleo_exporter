@@ -3,8 +3,17 @@
 aleo_exporter exports basic monitoring data from a Aleo node.
 
 ## Metrics
-- **latest_height** - the latest block height
-- **peer_count** - the number of peers connected to the node
+- **aleo_latest_height** - the latest block height
+- **aleo_peer_count** - the number of peers connected to the node
+- **aleo_coinbase_target** - the coinbase target for latest block
+- **aleo_cumulative_proof_target** - the cumulative proof target for latest block
+- **aleo_cumulative_weight** - the cumulative weight for latest block
+- **aleo_last_coinbase_target** - the coinbase target for the last coinbase
+- **aleo_last_coinbase_timestamp** - the unix timestamp(UTC) for the last coinbase
+- **aleo_latest_round** - the round that produced latest block
+- **aleo_network_id** - the network ID of the latest block
+- **aleo_proof_target** - the proof target for latest block
+- **aleo_timestamp** - the unix timestamp(UTC) for latest block
 
 ## Command line arguments
 
